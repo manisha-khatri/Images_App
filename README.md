@@ -1,5 +1,5 @@
-Architecture = MVVM
-Language = Java, xml
+Architecture = MVVM <br>
+Language = Java, xml <br>
 Dependencies = retrofit2, picasso, recyclerview, lifecycle, cardview
 
 -----------------------------------------------------------------------------------------------------
