@@ -18,7 +18,3 @@ curl -X GET \
 
 Sample JSON Response
 https://pastebin.com/6CqcVDZP
-
-
-#Please generate Google API key yourself.
-Please use the MVVM design pattern
