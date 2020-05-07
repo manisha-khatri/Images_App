@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/searchedKeyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:inputType="text"
+            android:hint="Enter string to search images"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#2D5793"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:text="search"/>
+
+    </LinearLayout>
+
+</LinearLayout>
